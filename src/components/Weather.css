@@ -1,0 +1,52 @@
+.weather{
+    width: 210px;
+    height: 200px;
+    
+    
+    
+}
+.weather:hover{
+   margin: 5px 5px 5px 5px;
+   transition: 1s;
+}
+.weathericon{
+    width: 80px;
+    height: 80px;
+    margin-top: .5rem;
+}
+.city{
+    font-size: 10px;
+    width: 200px;
+
+    
+
+}
+.upper{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    gap: 30px;
+    width: 100%;
+    font-family: cursive;
+}
+.upper>span{
+    margin-top: 30px;
+}
+.temp{
+    display: flex;
+    flex-direction: row;
+  
+    width: 100%;
+    margin-top: 40px;
+    font-size: 15px;
+    justify-content: space-between;
+
+    font-weight: 100;
+    font-family: cursive;
+    
+}
+.city>span{
+    margin-top: -100px;
+    font-size: 10px;
+}
